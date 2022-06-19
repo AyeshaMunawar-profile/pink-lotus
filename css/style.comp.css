@@ -80,10 +80,22 @@ a {
   color: var(--color-grey__-4); }
 
 @font-face {
-  font-family: 'Card Characters';
+  font-family: 'Vogue';
   font-style: normal;
   font-weight: normal;
-  src: local("Card Characters"), url("../res/fonts/card-chracters.woff") format("woff"); }
+  src: local("Vogue"), url("../res/fonts/Vogue.woff") format("woff"); }
 
 .heading-text {
-  font-family: 'Card Characters', sans-serif !important; }
+  font-family: 'Vogue', sans-serif !important; }
+
+.paragraph-text {
+  font-family: 'Oxygen', sans-serif !important; }
+
+h1, h2, h3, h4 {
+  font-family: 'Vogue', sans-serif; }
+
+h5, h6, p {
+  font-family: 'Oxygen', sans-serif; }
+
+body {
+  font-family: 'Oxygen', sans-serif; }
