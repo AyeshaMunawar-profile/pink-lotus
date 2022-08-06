@@ -1,6 +1,5 @@
-# black-lotus
+# Black Lotus
 A website for makeup company created using HTML CSS and SASS 
-
 
 Features
 1) User friendly design
