@@ -11,5 +11,15 @@ A website for makeup and skincare brand created using HTML CSS and SASS
 
 1) HTML5
 2) CSS3
-3) FontAwesome
-4) 
+3) SASS
+4) FontAwesome
+
+### Project Highlights
+
+1) UI UX 
+2) Responsiveness
+3) CSS grid and flexbox
+4) Mockups 
+5) Logo design
+6) use of BEM for naming class
+7) use 7-1 Pattern for folder structure
