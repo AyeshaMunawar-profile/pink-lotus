@@ -1,7 +1,7 @@
 {
   "name": "ayeshamunawar",
   "version": "1.0.0",
-  "description": "Profile for Ayesha Munawar",
+  "description": "A cosmetic brand website for skincare and makeup products",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
