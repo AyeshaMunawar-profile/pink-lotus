@@ -28,15 +28,16 @@
   @include respond(tab-port) { // width <= 900?
     font-size: 50%; // 1 rem = 8px, 8/16 = 50%
   }
+  box-sizing: border-box;
 }
 
 body {
-  box-sizing: border-box;
   padding: 3rem;
-  font-family: 'Raleway', sans-serif;;
+  font-family: 'Oxygen', sans-serif;
   @include respond(tab-port) {
     padding: 0;
   }
+  background-color: var(--color-white);
 }
 
 a {
@@ -55,30 +56,37 @@ li {
 h1 {
   font-size: 8rem;
   letter-spacing: 4px;
+  font-weight: lighter;
 }
 
 h2 {
   font-size: 6rem;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 h3 {
   font-size: 4rem;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 h4 {
   font-size: 2rem;
+  font-weight: lighter;
 }
 
 h5, p {
   font-size: 1.6rem;
+  font-weight: lighter;
 }
 
 h6 {
   font-size: 1.2rem;
+  font-weight: lighter;
 }
 
 p {
   line-height: 1.5;
+  font-weight: lighter;
 }

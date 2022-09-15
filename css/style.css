@@ -20,8 +20,10 @@
   --color-grey__4: #24292b;
   --color-grey__5: #1B1D24;
   --color-grey__6: #161A1D;
-  --color-pink-grey--1: #D5D3CB;
-  --color-pink-grey-0: #76717C;
+  --color-pink-grey--2: #dcced4;
+  --color-pink-grey--1: #b6aaad;
+  --color-pink-grey-0: #8e7d83;
+  --color-pink-grey-1: #50484b;
   --color-pink--2: #FCDCE0;
   --color-pink--1: #FCBED2;
   --color-pink-0: #EEA6C4;
@@ -51,7 +53,8 @@
   box-sizing: inherit; }
 
 :root {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  box-sizing: border-box; }
   @media only screen and (min-width: 112.5em) {
     :root {
       font-size: 70%; } }
@@ -63,9 +66,9 @@
       font-size: 50%; } }
 
 body {
-  box-sizing: border-box;
   padding: 3rem;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Oxygen', sans-serif;
+  background-color: var(--color-white); }
   @media only screen and (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -82,27 +85,34 @@ li {
 
 h1 {
   font-size: 8rem;
-  letter-spacing: 4px; }
+  letter-spacing: 4px;
+  font-weight: lighter; }
 
 h2 {
   font-size: 6rem;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-weight: lighter; }
 
 h3 {
   font-size: 4rem;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-weight: lighter; }
 
 h4 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  font-weight: lighter; }
 
 h5, p {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  font-weight: lighter; }
 
 h6 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  font-weight: lighter; }
 
 p {
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-weight: lighter; }
 
 @font-face {
   font-family: 'Vogue';
