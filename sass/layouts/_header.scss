@@ -1,0 +1,13 @@
+.header {
+  background-color: var(--color-pink-2);
+
+  &__picture {
+    background-color: var(--color-pink--1);
+    color: var(--color-grey__4)
+  }
+
+  &__content {
+    background-color: var(--color-pink-2);
+    color: var(--color-white);
+  }
+}

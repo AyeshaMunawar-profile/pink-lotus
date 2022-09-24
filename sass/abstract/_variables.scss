@@ -28,12 +28,15 @@
   --color-pink-0: #EEA6C4;
   --color-pink-1: #EA638C;
   --color-pink-2: #89023E;
+  --color-pink-3: #6b0130;
+  --color-pink-4: #4b0021;
   // Accent Color: Purple
-  --color-Brown--2: #EBE0F5;
-  --color-Brown--1: #CBA9EF;
-  --color-Brown-0: #A06EC4;
-  --color-Brown-1: #8D51B8;
-  --color-Brown-2: #623582;
+  --color-purple--2: #EBE0F5;
+  --color-purple--1: #CBA9EF;
+  --color-purple-0: #A06EC4;
+  --color-purple-1: #8D51B8;
+  --color-purple-2: #623582;
+  --color-purple-3: #341a45;
   // Accent Color : Blue
   --color-blue--2: #64DFDF;
   --color-blue--1: #56CFE1;
@@ -46,6 +49,8 @@
   --color-shadow__0: #B1A7A6;
   --color-shadow__1: #8A817C;
   --color-shadow__2: #463F3A;
+
+  --box-shadow--default: 5px 8px 24px 5px rgba(208, 216, 243, 0.6)
 }
 
 //Grid
