@@ -40,6 +40,7 @@ body {
   font-size: 1.6rem;
   display: grid;
   grid-template-rows: min-content 80vh 40vw repeat(6, min-content) 80vh 80vh min-content 60vh;
+  grid-template-columns: 8rem 1fr repeat(8, minmax(14rem, 1fr)) 1fr;
 }
 
 a {

@@ -1,0 +1,89 @@
+.slick {
+  @include respond(phone) {
+    height: auto;
+  }
+
+  &:before, &:before {
+    color: var(--color-blue-1);
+    font-size: 3rem;
+  }
+
+  &-dots {
+    @include respond(phone) {
+      display: none;
+    }
+    z-index: 3;
+    bottom: -8rem;
+
+    & li button:before {
+      font-size: 1.5rem;
+      color: var(--color-grey__4);
+    }
+
+    & li.slick-active button:before {
+      font-size: 2rem;
+      color: var(--color-blue-1);;
+    }
+  }
+
+  &-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+    outline: none;
+    margin: 0 2rem;
+
+    & img {
+      width: 100%;
+    }
+
+    &:active,
+    &:active {
+      border: none;
+      outline: none;
+    }
+  }
+
+
+  &-active {
+    opacity: .5;
+  }
+
+  &-current {
+    opacity: 1;
+  }
+}
+
+
+.slick-slider {
+  background-color: transparent;
+}
+
+.slick-prev {
+  left: -1rem !important;
+}
+
+.slick-next {
+  right: -1rem !important;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: var(--color-purple-1) !important;
+}
+
+.slick-prev::before:hover, .slick-prev::before:focus, .slick-next::before:hover, .slick-next::before:focus {
+  color: var(--color-purple-2) !important;
+}
+
+.slick-dots {
+  li.slick-active {
+    button::before {
+      color: var(--color-blue-2) !important;
+    }
+  }
+
+  li {
+    button::before {
+      color: var(--color-blue-1) !important;
+    }
+  }
+}

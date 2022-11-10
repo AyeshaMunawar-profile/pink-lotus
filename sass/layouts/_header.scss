@@ -17,7 +17,7 @@
 
 @include respond(tab-land) {
   .header {
-    grid-template-rows: 80vh;
+    grid-template-rows: 100vh;
     grid-template-columns: 100vw;
 
     &__picture {
