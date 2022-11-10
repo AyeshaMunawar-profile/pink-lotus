@@ -1,0 +1,34 @@
+.reviews {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80vh;
+
+  &__picture {
+    background-color: var(--color-purple--2);
+  }
+
+  &__story {
+    background-color: var(--color-purple-2);
+  }
+}
+
+@include respond(tab-land) {
+  .reviews {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: var(--color-purple--2);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+
+    &__picture {
+      background-color: transparent;
+    }
+
+    &__story {
+      background-color: transparent;
+    }
+  }
+}

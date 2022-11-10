@@ -1,5 +1,8 @@
 .header {
   background-color: var(--color-pink-2);
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
 
   &__picture {
     background-color: var(--color-pink--1);
@@ -11,3 +14,26 @@
     color: var(--color-white);
   }
 }
+
+@include respond(tab-land) {
+  .header {
+    grid-template-rows: 80vh;
+    grid-template-columns: 100vw;
+
+    &__picture {
+      background-color: var(--color-pink--1);
+      color: var(--color-grey__4);
+      grid-row: 1/2;
+      grid-column: 1/2;
+    }
+
+    &__content {
+      background-color: transparent;
+      color: var(--color-black);
+      grid-row: 1/2;
+      grid-column: 1/2;
+      z-index: 1;
+    }
+  }
+}
+

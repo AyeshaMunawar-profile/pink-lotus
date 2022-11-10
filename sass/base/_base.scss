@@ -32,12 +32,14 @@
 }
 
 body {
-  padding: 3rem;
   font-family: 'Oxygen', sans-serif;
   @include respond(tab-port) {
     padding: 0;
   }
   background-color: var(--color-white);
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-rows: min-content 80vh 40vw repeat(6, min-content) 80vh 80vh min-content 60vh;
 }
 
 a {
@@ -82,15 +84,19 @@ h5, p {
 }
 
 h6 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: lighter;
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.6rem;
   font-weight: lighter;
 }
 
 .section {
   padding: 6rem 2rem;
+}
+
+.sub_section {
+  padding: 2rem 1rem;
 }
