@@ -5,9 +5,9 @@
 //Neutral Color Grey : Mud color
 //Neutral colors and Primary : Black White and Grey
 :root {
-  --color-white: #fafafa;
+  --color-white: #f4f4f4;
   --color-black: #0B090A;
-  --color-grey__-4: #f3f3f3;
+  --color-grey__-4: #e8e8e8;
   --color-grey__-3: #e5e5e6;
   --color-grey__-2: #d3d3da;
   --color-grey__-1: #b9b9c1;
@@ -28,24 +28,31 @@
   --color-pink-0: #EEA6C4;
   --color-pink-1: #EA638C;
   --color-pink-2: #89023E;
+  --color-pink-3: #6b0130;
+  --color-pink-4: #4b0021;
   // Accent Color: Purple
-  --color-Brown--2: #EBE0F5;
-  --color-Brown--1: #CBA9EF;
-  --color-Brown-0: #A06EC4;
-  --color-Brown-1: #8D51B8;
-  --color-Brown-2: #623582;
+  --color-purple--2: #EBE0F5;
+  --color-purple--1: #CBA9EF;
+  --color-purple-0: #A06EC4;
+  --color-purple-1: #8D51B8;
+  --color-purple-2: #623582;
+  --color-purple-3: #341a45;
+  --color-purple-4: #220e2e;
   // Accent Color : Blue
   --color-blue--2: #64DFDF;
   --color-blue--1: #56CFE1;
   --color-blue--0: #48BFE3;
   --color-blue-1: #1E9CC2;
   --color-blue-2: #19809F;
+  --color-blue-3: #097090;
   // Secondary Color : Mud color
   --color-shadow__-2: #F5F3F4;
   --color-shadow__-1: #D3D3D3;
   --color-shadow__0: #B1A7A6;
   --color-shadow__1: #8A817C;
   --color-shadow__2: #463F3A;
+
+  --box-shadow--default: 5px 8px 24px 5px rgba(208, 216, 243, 0.6)
 }
 
 //Grid
