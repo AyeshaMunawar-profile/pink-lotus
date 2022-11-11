@@ -1,0 +1,10 @@
+.favourites-container{
+  background-color: var(--color-grey__-2);
+  grid-column: full-start/full-end;
+  color: var(--color-grey__4)
+}
+@include respond(tab-land){
+  .favourites-container{
+    width: calc(100vw - 8rem);
+  }
+}

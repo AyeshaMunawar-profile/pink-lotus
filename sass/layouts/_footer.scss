@@ -1,4 +1,10 @@
-.footer{
+.footer-container{
   background-color: var(--color-black);
   color: var(--color-white);
+  grid-column: full-start/full-end;
+}
+@include respond(tab-land){
+  .footer-container{
+    width: calc(100vw - 8rem);
+  }
 }

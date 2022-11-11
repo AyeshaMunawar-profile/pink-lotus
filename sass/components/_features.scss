@@ -1,10 +1,11 @@
-.gallery-container{
-  background-color: var(--color-grey__-3);
+.features-container{
+  background-color: var(--color-white);
   grid-column: full-start/full-end;
   color: var(--color-grey__4)
 }
+.features{}
 @include respond(tab-land){
-  .gallery-container{
+  .features-container{
     width: calc(100vw - 8rem);
   }
 }

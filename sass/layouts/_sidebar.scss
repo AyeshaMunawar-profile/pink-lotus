@@ -1,4 +1,6 @@
 .sidebar {
   background-color: var(--color-grey__4);
   color: var(--color-white);
+  grid-column: sidebar-start/sidebar-end ;
+  grid-row: 1/-1;
 }

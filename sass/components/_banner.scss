@@ -1,0 +1,13 @@
+.banner-container{
+  grid-column: full-start/full-end;
+  background-color: var(--color-blue-1);
+  color: var(--color-white)
+}
+.banner{
+
+}
+@include respond(tab-land){
+  .banner-container{
+    width: calc(100vw - 8rem);
+  }
+}

@@ -1,0 +1,13 @@
+.dermatologists-container{
+  background-color: var(--color-pink-grey--2);
+  grid-column: full-start/full-end;
+  color: var(--color-grey__4)
+}
+.dermatologists{
+
+}
+@include respond(tab-land){
+  .dermatologists-container{
+    width: calc(100vw - 8rem);
+  }
+}

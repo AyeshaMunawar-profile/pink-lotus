@@ -1,4 +1,12 @@
-.mobile-app{
+.mobile-app-container{
+  grid-column: full-start/full-end;
   background-color: var(--color-purple-3);
   color: var(--color-white)
+}
+.mobile-app{
+}
+@include respond(tab-land){
+  .mobile-app-container{
+    width: calc(100vw - 8rem);
+  }
 }

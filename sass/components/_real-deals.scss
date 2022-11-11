@@ -1,0 +1,10 @@
+.real-deals-container{
+  background-color: var(--color-grey__-4);
+  grid-column: full-start/full-end;
+  color: var(--color-grey__4)
+}
+@include respond(tab-land){
+  .real-deals-container{
+    width: calc(100vw - 8rem);
+  }
+}

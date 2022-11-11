@@ -1,5 +1,10 @@
-.best-sellers {
-  width: 100%;
-  position: relative;
+.best-sellers-container {
   background-color: var(--color-grey__-4);
+  grid-column: full-start/full-end;
+  color: var(--color-grey__4);
+  width: calc(100vw - 8rem);
+}
+
+.best-sellers {
+  position: relative;
 }

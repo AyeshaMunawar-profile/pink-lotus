@@ -1,0 +1,10 @@
+.top-categories-container{
+  grid-column: full-start/full-end;
+  color: var(--color-black);
+  background-color: var(--color-grey__-3);
+}
+@include respond(tab-land){
+  .top-categories-container{
+    width: calc(100vw - 8rem);
+  }
+}

@@ -39,7 +39,7 @@ body {
   background-color: var(--color-white);
   font-size: 1.6rem;
   display: grid;
-  grid-template-rows: min-content 80vh 40vw repeat(6, min-content) 80vh 80vh min-content 60vh;
+  grid-template-rows: min-content 80vh 40vw repeat(6, min-content) 80vh min-content 80vh;
   grid-template-columns: [sidebar-start]8rem[sidebar-end full-start] 1fr [center-start] repeat(8, [col-start] minmax(14rem, 1fr) [col-end])[center-end] 1fr[full-end];
 }
 
